@@ -16,7 +16,7 @@ public class CardComparatorTests {
         new CardComparator().compare(new Card(CardColor.CLUBS, 2), new Card(CardColor.HEARTS, 3));
         new CardComparator().compare(new Card(CardColor.CLUBS, 2), new Card(CardColor.CLUBS, 3));
 
-        IllegalMethodsCheck.checkMethods();
+        IllegalMethodsCheck.checkMethods("^java/lang/Integer.+");
     }
 
 }
