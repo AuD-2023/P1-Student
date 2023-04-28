@@ -87,18 +87,18 @@ public class P1_RubricProvider implements RubricProvider {
     public static final Criterion H1_1 = createParentCriterion("1 a)", "CardComparator", H1_1_1, H1_1_2);
 
     public static final Criterion H1_2_1 = createUntestedCriterion("Die Methode [[[compare]]] der Klasse CountingComparator funktioniert korrekt",
-        () -> CardComparatorTests.class.getMethod("checkIllegalMethods"));
+        () -> CountingComparatorTest.class.getMethod("checkIllegalMethods"));
 
     public static final Criterion H1_2_2 = createUntestedCriterion("Die Methoden [[[reset]]] und getComparisonsCount der Klasse CountingComparator funktionieren korrekt",
-        () -> CardComparatorTests.class.getMethod("checkIllegalMethods"));
+        () -> CountingComparatorTest.class.getMethod("checkIllegalMethods"));
 
     public static final Criterion H1_2 = createParentCriterion("1 b)", "CountingComparator", H1_2_1, H1_2_2);
 
     public static final Criterion H1_3_1 = createUntestedCriterion("Die Methode [[[insertionSort]]] der Klasse HybridSort funktioniert korrekt wenn die Eingabe bereits sortiert ist",
-        () -> CountingComparatorTest.class.getMethod("checkIllegalMethods"));
+        () -> InsertionSortTests.class.getMethod("checkIllegalMethods"));
 
     public static final Criterion H1_3_2 = createUntestedCriterion("Die Methode [[[insertionSort]]] der Klasse HybridSort funktioniert korrekt wenn die Eingabe leer ist oder nur ein Element enthält",
-        () -> CountingComparatorTest.class.getMethod("checkIllegalMethods"));
+        () -> InsertionSortTests.class.getMethod("checkIllegalMethods"));
 
     public static final Criterion H1_3_3 = createCriterion("Die Methode [[[insertionSort]]] der Klasse HybridSort funktioniert korrekt wenn die Eingabe zwei Elemente enthält", 1,
         () -> InsertionSortTests.class.getMethod("testTwoItems", List.class));
