@@ -19,7 +19,7 @@ public interface Sort<T> {
 
     /**
      * Returns the number of comparisons made by the sorting algorithm during the last execution of the {@link #sort(SortList)} method
-     * or null if the {@link #sort(SortList)} has not been called yet.
+     * or 0 if the {@link #sort(SortList)} has not been called yet.
      * @return the number of comparisons made by the sorting algorithm.
      */
     int getComparisonsCount();
