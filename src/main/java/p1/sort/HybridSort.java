@@ -76,7 +76,7 @@ public class HybridSort<T> implements Sort<T> {
      * @param right The rightmost index of the list to be sorted.
      */
     public void quickSort(SortList<T> sortList, int left, int right) {
-        throw new UnsupportedOperationException("Not implemented yet"); //TODO H1 b): remove if implemented
+        throw new UnsupportedOperationException("Not implemented yet"); //TODO H1 d): remove if implemented
     }
 
     /**
