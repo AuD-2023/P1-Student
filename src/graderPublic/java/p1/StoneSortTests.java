@@ -109,7 +109,7 @@ public class StoneSortTests {
                 .add("values", values)
                 .add("comparator", "natural_order")
                 .build(),
-            result -> "insertionSort() should not throw an exception.");
+            result -> "sort() should not throw an exception.");
 
         Context context = contextBuilder()
             .subject("StoneSort#sort()")
