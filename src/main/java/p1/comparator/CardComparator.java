@@ -6,7 +6,7 @@ import p1.card.CardColor;
 import java.util.Comparator;
 
 /**
- * Compares two {@link Card}s.
+ * Compares two {@linkplain Card cards}.
  * <p>
  * The cards are first compared by their value and then by their {@link CardColor}.
  *
@@ -15,7 +15,7 @@ import java.util.Comparator;
 public class CardComparator implements Comparator<Card> {
 
     /**
-     * Compares two {@link Card}s.
+     * Compares two {@linkplain Card cards}.
      * <p>
      * The cards are first compared by their value and then by their {@link CardColor}.
      * <p>

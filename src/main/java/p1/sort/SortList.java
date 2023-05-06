@@ -11,8 +11,8 @@ import java.util.Iterator;
  * The elements are ordered and can be accessed by their index.
  * The values at any given index can be changed, but the size of the {@link SortList} cannot be changed.
  * <p>
- * An important distinction between this and a @{@link java.util.List} is that the contents of the {@link SortList} are
- * not shifted when an element is removed, similar to an array. This means that the {@link SortList} can contain gaps (null) elements.
+ * An important distinction between a {@link SortList} and a {@link java.util.List} is that the contents of the {@link SortList} are
+ * not shifted when an element is removed, similar to an array. This means that the {@link SortList} can contain gaps (elements that are null).
  * <p>
  * Every implementation must store the number of read and write operations performed on the {@link SortList}.
  *

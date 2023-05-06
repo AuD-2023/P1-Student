@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Random;
 
 /**
- * An Variation of the {@link HybridSort} algorithm that uses a random pivot for partitioning.
+ * A variation of the {@link HybridSort} algorithm that uses a random pivot for partitioning.
  * @param <T> the type of the elements to be sorted.
  */
 public class HybridSortRandomPivot<T> extends HybridSort<T> {

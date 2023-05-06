@@ -3,7 +3,7 @@ package p1.comparator;
 import java.util.Comparator;
 
 /**
- * An {@link Comparator} that stores the number of comparisons made by the {@link #compare(Object, Object)} method.
+ * A {@link Comparator} that stores the number of comparisons made by the {@link #compare(Object, Object)} method.
  * <p>
  * The number of comparisons can be reset using the {@link #reset()} method.
  * <p>
